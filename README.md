@@ -39,12 +39,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   louisvuitton.com
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Fullscreen screenshot van de Homepagina van Louis Vuitton 
+  <img src="/readme-images/HomepageLouisVuittonFP.png" width="375px" alt="Fullscreen screenshot van de Homepagina van Louis Vuitton">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Fullscreen screenshot van de Productpagina van Louis Vuitton  
+  <img src="/readme-images/ProductpageLouisVuittonFP.png" width="375px" alt="Fullscreen screenshot van de Productpagina van Louis Vuitton">
  
 </details>
 
@@ -57,6 +57,46 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  ## Content 
+  - Website gebruikt wel hier en daar metaforen in de nav, maar dat zijn wel duidelijke metaforen. 
+  - Website maakt duidelijk wat links zijn door middel van een streep onder de tekst. Buttons zijn verder ook duidelijk doordat ze rond zijn afgewerkt. 
+
+  ## Global Code
+
+  ## Keyboard
+  - Met tab kan je elementen selecteren. 
+  - De website selecteerd op logische volgorde. 
+
+  ## Mobile & Touch
+  - Website kan naar alle kanten draaien, zonder dat de plaatjes en knoppen raar vervormen. 
+  - Scrollen naar links of rechts is uitgeschakeld, alleen toegestaan op plekken waar het nodig is zoals slideshows. 
+  - Ik vind dat de knoppen in de NAV te klein zijn, en te dicht op elkaar zitten. 
+
+  ## Headings
+  - Elk stuk nieuwe content wordt geintroduceerd door een Heading. 
+  - Op sommige plekken is he H3 onder een H4, dit ziet er best onlogisch uit. 
+  - Na elk stukje content is een groot plaatje geplaatst, waar je doorheen moet scrollen. Dit is een handig trucje om geen content te skippen. 
+
+  ## Lists
+
+  ## Images
+
+  ## Media
+
+  ## Controls
+
+  ## Appearance
+  - Website heeft geen dark-mode, maar wel een high-contrast mode. 
+  - Website ziet er nogsteeds prima uit met 200% text size increase. 
+  - De kleuren zijn simpel, en brengen niet echt iets naar voren, behalve dat het een chique merk is. 
+
+  ## Animation
+  - Animaties lopen smooth over en zijn niet flashy, ook de scroll animaties van de plaatjes. 
+  - Videos kan je op pauze zetten als je wilt. 
+
+  ## Color Contrast
+  - De site heeft een witte achtergrond met zwarte text en iconen, dus het contrast is wel goed.
+  - Tekst die de video’s overlapt is wit, en dat kan er soms voor zorgen dat de tekst niet heel goed zichtbaar is. 
 
 </details>
 
@@ -68,7 +108,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="/readme-images/HomepageLouisVuittonFP Breakdown.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
