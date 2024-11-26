@@ -36,7 +36,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  louisvuitton.com
+  https://en.louisvuitton.com/eng-nl/homepage 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Fullscreen screenshot van de Homepagina van Louis Vuitton 
@@ -63,6 +63,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Website gebruikt wel hier en daar metaforen in de nav, maar dat zijn wel duidelijke metaforen. 
   - Website maakt duidelijk wat links zijn door middel van een streep onder de tekst. Buttons zijn verder ook duidelijk doordat ze rond zijn afgewerkt. 
 
+  #### Global Code
+
   #### Keyboard
   - Met tab kan je elementen selecteren. 
   - De website selecteerd op logische volgorde. 
@@ -78,10 +80,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Na elk stukje content is een groot plaatje geplaatst, waar je doorheen moet scrollen. Dit is een handig trucje om geen content te skippen. 
 
   #### Lists
+  - Een collectie van items staat binnen een list als content. 
 
   #### Images
+  - Geen een plaatje heeft een goeie ALT description. Ook niet de productplaatjes. (En dus de decoratieve plaatjes ook niet).  
 
   #### Media
+  - Videos’s beginnen met spelen zodra je de pagina opent. 
+  - Video’s kunnen wel gepauseerd en gemute worden. 
+  - Er zijn geen captions en audio transcripts. 
 
   #### Controls
 
