@@ -49,7 +49,6 @@ main{
     left: 4rem;
     right: 4rem;
     color: white;
-
 }
 
 .hero div{
@@ -62,9 +61,43 @@ main{
 }
 
 .hero a{
-    padding: 10px;
-    text-decoration: none;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: underline;
     color: white;
+}
+
+.explore ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 1.2em;
+}
+
+.explore li{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+
+}
+
+.explore img{
+    width: 100%;
+    border-radius: 2em;   
+}
+
+
+.explore H2{
+    display: flex;
+    text-align: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.explore H3{
+    width: 39%;
+    font-size: 15px;
 }
 
 footer {
@@ -72,7 +105,6 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 50px;
-
 }
 
 footer ul {
@@ -81,11 +113,9 @@ footer ul {
     justify-content: center;
     gap: 10px;
     margin-top: 10px;
-
 }
 
 footer a {
     text-decoration: none;
     color: #333;
-
 }
