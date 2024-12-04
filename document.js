@@ -114,3 +114,80 @@ function createCaroCarrousel(carrouselID) {
   createCaroCarrousel("visualClues");
   //je kunt hier ook meerdere carrousellen activeren
 })();
+
+var heartButtons = document.querySelectorAll("button.like");
+
+
+/* nb. dit kan met veel minder code met een for loop */
+for (let i = 0; i < heartButtons.length; i++) {
+  heartButtons[i].onclick = addToFavorites;
+}
+
+function addToFavorites(event) {
+  /* het hartje waarop geklikt is in de variabele 'clickedHeart' opslaan */
+  let clickedHeart = event.target;
+  
+  /* de parent - de hele fish opzoeken */
+  let theFish = clickedHeart.closest("li");
+  
+  /* de class liked aan de fish toevoegen */
+  /* en weer verwijderen als er nog een keer geklikt wordt */
+  theFish.classList.toggle("liked");
+}
+
+
+/******************************/
+/* menu openen de MENU button */
+/******************************/
+
+/* JOUW CODE HIER - stap 4 */
+
+// stap 1: zoek de menu-button op en sla die op in een variabele
+var openButton = document.querySelector("header > button");
+
+// stap 2: laat de menu-button luisteren naar kliks en voer dan een functie uit
+openButton.onclick = openMenu;
+
+// stap 3: voeg in de functie een class toe aan de nav
+function openMenu() {  
+  // zoek de nav op
+  var deNav = document.querySelector("nav");
+  // voeg class toe aan nav
+  deNav.classList.add("toonMenu");
+}
+
+
+
+
+/************************************/
+/* menu sluiten met de sluit button */
+/************************************/
+
+/* JOUW CODE HIER - stap 5 */
+
+// stap 1 - zoek sluiten button op
+var sluitButton = document.querySelector("nav button");
+
+// stap 2 - laat die button luisteren naar kliks
+sluitButton.onclick = sluitMenu;
+
+// stap 3 - in de functie verwijder de class van de nav
+function sluitMenu() {
+  var deNav = document.querySelector("nav");
+  deNav.classList.remove("toonMenu");
+}
+
+
+
+
+/**********************************/
+/* bonus: menu sluiten met escape */
+/**********************************/
+window.onkeydown = handleKeydown;
+
+function handleKeydown(event) {
+  if (event.key == "Escape") {
+    var deNav = document.querySelector("nav");
+    deNav.classList.remove("toonMenu");
+  }
+}
