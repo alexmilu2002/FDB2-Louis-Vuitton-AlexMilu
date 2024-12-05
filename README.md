@@ -221,18 +221,30 @@
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Deze week heb ik het meeste voortgang tot nu toe geboekt. Ik heb gemerkt dat de kleinste onderdelen, het meeste aandacht vragen.
+  
+  Ik ben als eerst bezig geweest met de carousel. Tom heeft mij een oefening gegeven waarbij ik meer te weten zou komen over hoe een carousel werkt. Ik heb de code na de oefening over genomen en aangepast naar de stijl van Louis Vuitton. Zo heb ik bijvoorbeeld meer margin toegevoegd, en heb ik de bolletjes met grid onder de carousel geplaatst. 
+  
+  Daarna ben ik bezig geweest met de like buttons. Hier heb ik de vissen oefening als voorbeeld gebruikt. Ik heb de like button naar eigen stijl gemaakt en gepositioneerd bij de producten. 
+
+  Ook ben ik aan de slag gegaan met de Hamburger Menu, Deze vond ik het lastigste. Hier heb ik ook een oefening voor gedaan. Ik heb de drop animation veranderd van boven naar beneden, in plaats van links naar rechts. Ook heb ik de drop menu naar de stijl van Louis Vuitton gemaakt. Alleen hier kwam ik iets tegen wat voor mij te lastig was. Ik kan niet meer scrollen in het menu.
+
+  Ten slotte ben ik bezig gegaan met Dark Mode. Hiervoor heb ik een oefening gevonden op codepen. Hier heb ik veel van geleerd. Ik heb geleerd om met root te werken, en om een andere theme aan te roepen via javascript. Het enige wat vervelend is is dat je soms de zon en de maan tegelijk ziet. Hoe krijg ik dit weg?
+
+  Bronnen zie je onderaan de ReadMe en in de Code.
+
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | Vragen         | Antwoorden         | 
+  | ---            | ---                | 
+  | Is de breakdown schets van de tweede pagina goed? |              |
+  | Soms zie je de zon en de maan tegelijk. Hoe krijg ik dit weg? |              |
+  | Ik kan niet scrollen in de hamburger menu, Hoe kan dit? |              |
+  | Hoe krijg ik de scroll animation die Louis Vuitton gebruikt, Het lukt mij niet. |             | 
+  | Ik heb een aantal foutcodes die ik niet weg krijg. |                | 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -281,9 +293,10 @@
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
-
-  1. bron 1
-  2. bron 2
-  3. ...
+ 
+  1. bron 1 DARK MODE https://codepen.io/0guzhan/pen/ROgWbW?editors=1010
+  2. bron 2 CAROUSEL https://codepen.io/shooft/pen/yLKjzWa (EEN EN EEN BEETJE)
+  3. BRON 3 LIKE BUTTON https://codepen.io/shooft/pen/YzoaMbb?editors=1010
+  4. BRON 4 HAMBURGER MENU  https://codepen.io/shooft/pen/VwJXNEg?editors=1010
 
 </details>

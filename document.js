@@ -1,9 +1,27 @@
+
+/**********************************/
+/* START VAN CAROUSEL *************/
+/**********************************/
+
 function createCaroCarrousel(carrouselID) {
 	let carrousel = document.querySelector("#"+carrouselID);
   let carrouselElementsContainer = carrousel.querySelector(":scope > ul");
 	let carrouselElements = carrouselElementsContainer.querySelectorAll("li");
   let bolletjes = carrousel.querySelectorAll(":scope > nav a");
 	
+  /*****************/
+	/* START POSITIE */
+	/*****************/
+  
+	// het eerste element en bolletje actief maaken
+  function iniStartPosition() {
+    // eerste element current maken
+    carrouselElements[0].classList.add("current");
+    // eerste bolletje current maken
+		bolletjes[0].classList.add("current");
+		// aan het begin van de container starten
+    carrouselElementsContainer.scrollLeft = 0;
+  }
   
   /****************/
 	/* DE BOLLETJES */
@@ -48,28 +66,10 @@ function createCaroCarrousel(carrouselID) {
     }
 	}
   
-  
-  /*****************/
-	/* START POSITIE */
-	/*****************/
-  
-	// het eerste element en bolletje actief maaken
-  function iniStartPosition() {
-    // eerste element current maken
-    carrouselElements[0].classList.add("current");
-    // eerste bolletje current maken
-		bolletjes[0].classList.add("current");
-		// aan het begin van de container starten
-    carrouselElementsContainer.scrollLeft = 0;
-  }
-  
-  
   /*********************/
 	/* ALGEMENE FUNCTIES */
 	/*********************/
   
-  ////////////////////////////
-	// update current element //
 	function updateCurrentElement(newElement) {
 		// het huidige current element opzoeken
 		let currentElement = carrousel.querySelector(":scope > ul > .current");
@@ -79,10 +79,11 @@ function createCaroCarrousel(carrouselID) {
 		// aan nieuwe element de class current toevoegen
 		newElement.classList.add("current");
 	}
-
   
-  //////////////////////
-  // update bolletjes //
+  /*********************/
+	/* Update Bolletjes */
+	/*********************/
+  
   function updateBolletjes(newElement){
 		// het huidige current bolletje opzoeken
 		let currentBolletje = carrousel.querySelector(":scope > nav .current");
@@ -95,14 +96,11 @@ function createCaroCarrousel(carrouselID) {
 		newBolletje.classList.add("current");
   }
 
-  
-
 	// de bolletjes activeren
   iniBolletjes();	
   // de carrousel bij het begin starten
   iniStartPosition();
 }
-
 
 /************************/
 /* DE CARROUSEL CREËREN */
@@ -115,8 +113,15 @@ function createCaroCarrousel(carrouselID) {
   //je kunt hier ook meerdere carrousellen activeren
 })();
 
-var heartButtons = document.querySelectorAll("button.like");
+/************************************/
+/* EINDE VAN CAROUSEL ***************/
+/************************************/
 
+/************************************/
+/* START VAN LIKE BUTTONS ***********/
+/************************************/
+
+var heartButtons = document.querySelectorAll("button.like");
 
 /* nb. dit kan met veel minder code met een for loop */
 for (let i = 0; i < heartButtons.length; i++) {
@@ -128,19 +133,24 @@ function addToFavorites(event) {
   let clickedHeart = event.target;
   
   /* de parent - de hele fish opzoeken */
-  let theFish = clickedHeart.closest("li");
+  let theProduct = clickedHeart.closest("li");
   
   /* de class liked aan de fish toevoegen */
   /* en weer verwijderen als er nog een keer geklikt wordt */
-  theFish.classList.toggle("liked");
+  theProduct.classList.toggle("liked");
 }
 
+/************************************/
+/* EINDE VAN LIKE BUTTONS ***********/
+/************************************/
 
-/******************************/
-/* menu openen de MENU button */
-/******************************/
+/************************************/
+/* START VAN HAMBURGER MENU *********/
+/************************************/
 
-/* JOUW CODE HIER - stap 4 */
+/**************/
+/* menu openen*/
+/**************/
 
 // stap 1: zoek de menu-button op en sla die op in een variabele
 var openButton = document.querySelector("header > button");
@@ -156,14 +166,9 @@ function openMenu() {
   deNav.classList.add("toonMenu");
 }
 
-
-
-
-/************************************/
-/* menu sluiten met de sluit button */
-/************************************/
-
-/* JOUW CODE HIER - stap 5 */
+/*****************/
+/* menu sluiten  */
+/*****************/
 
 // stap 1 - zoek sluiten button op
 var sluitButton = document.querySelector("nav button");
@@ -177,9 +182,6 @@ function sluitMenu() {
   deNav.classList.remove("toonMenu");
 }
 
-
-
-
 /**********************************/
 /* bonus: menu sluiten met escape */
 /**********************************/
@@ -192,6 +194,13 @@ function handleKeydown(event) {
   }
 }
 
+/************************************/
+/* EINDE VAN  HAMBURGER MENU ********/
+/************************************/
+
+/**********************************/
+/* START VAN DARKMODE *************/
+/**********************************/
 
 const lightMode = document.querySelector('.sun');
 const darkMode = document.querySelector('.moon');
@@ -221,3 +230,7 @@ if (currentTheme) {
       darkMode.style = "display: block";
     }
 }
+
+/************************************/
+/* EINDE VAN DARK MODE **************/
+/************************************/
