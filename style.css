@@ -17,6 +17,20 @@
     src: url("./fonts/LouisVuitton-Oblique.woff2");
 }
 
+:root{
+  --primary-color: white;
+  --footer-color: #f8f8f8;
+  --secondary-color: black;
+  --font-color: black;
+}
+
+[data-theme="dark"] {
+  --primary-color: #3b3939;
+  --secondary-color: #b8b8b8;
+  --footer-color:black ;
+  --font-color: #fff;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -26,7 +40,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background: white;
+  background: var(--primary-color);
   padding: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -41,6 +55,11 @@ header > button {
   border: none;
 }
 
+.modeswitch img{
+  width: 2em;
+  height: 2em;
+}
+
 
 
 /************/
@@ -49,7 +68,7 @@ header > button {
 
 header nav {
   /* JOUW CODE HIER - stap 1 */
-  position:fixed;
+  position: fixed;
   left:0;
   right:0;
   top:3.5em;
@@ -64,17 +83,13 @@ header nav {
 
 header button img{
   padding: 0.5em;
-  background-color: #000;
+  background-color: black;
 }
 
 header button{
   border: none;
 }
 
-.menubuttonlist {
-  flex-direction: column;
-
-}
 
 .menubuttonlist li{
   display: flex;
@@ -86,7 +101,8 @@ header button{
   font-family: LouisVuitton;
   font-weight: normal;
   border: none;
-  background-color: #f8f8f8;
+  background-color: var(--primary-color);
+  color: var(--font-color);
 }
 
 .menubuttonlist p{
@@ -99,15 +115,19 @@ header button{
 /* als menu open is */
 nav.toonMenu {
   /* JOUW CODE HIER - stap 4 */
-  translate:0% 0%;
-  background-color: #f8f8f8;
-  text-decoration: none;
+  translate: 0% 0%;
+  background-color: var(--primary-color);
+  color: var(--font-color);
   width: 100%;
   padding: 1em 0em 0em 1em;
   top: 0em;
 
 }
 
+header a{
+  text-decoration: none;
+  color: var(--font-color);
+}
 
 h1{
     font-family: LouisVuitton;
@@ -117,8 +137,8 @@ h1{
 
 /* HERO GEDEELTE */
 .hero {
-    position: relative;
-    background-color: white;
+    position: relative;;
+    background-color: var(--primary-color);
 }
 
 .hero video{
@@ -161,11 +181,16 @@ h1{
 }
 
 /* EXPLORE GEDEELTE */
+.explore{
+  background-color: var(--primary-color);
+}
+
 .explore ul{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    margin: 1.2em;
+    padding: 1.2em;
+
 }
 
 .explore li{
@@ -173,6 +198,7 @@ h1{
     flex-direction: column; 
     align-items: center;
     text-align: center;
+    margin-bottom: 2em;
 
 }
 
@@ -189,7 +215,8 @@ h1{
     font-family: LouisVuitton;
     font-weight: bold;
     font-size: 22px;
-    margin: 2em;
+    padding: 2em;
+    color: var(--font-color);
 
 }
 
@@ -199,6 +226,7 @@ h1{
     font-family: LouisVuitton;
     font-weight: bold;
     margin-top: 1em;
+    color: var(--font-color);
 }
 
 /* GIFTS GEDEELTE */
@@ -206,22 +234,25 @@ h1{
     display: flex;
     flex-direction: column; /* Zorgt ervoor dat elementen onder elkaar staan */
     align-items: center; /* Centreert horizontaal */
+    background-color: var(--primary-color);
 }
 
 .gifts img{
     height: 30em;
     object-fit: cover;
     width: 100%;
-    margin: 2em 0em 0em 0em;
+    margin: 0;
     
 }
+
 
 .gifts h2{
     font-family: LouisVuitton;
     font-weight: normal;
     font-size: 17px;
     text-align: center; 
-    margin-top: 2em;
+    padding-top: 2em;
+    color: var(--font-color);
 }
 
 .gifts h3{
@@ -230,6 +261,7 @@ h1{
     text-align: center;
     font-size: 22px;
     margin-bottom: 1em;
+    color: var(--font-color);
 }
 
 .gifts ul{
@@ -245,6 +277,7 @@ h1{
   flex-direction: column; 
   align-items: center;
   text-align: center;
+  color: var(--font-color);
 }
 
 .gifts ul li img{
@@ -258,8 +291,8 @@ h1{
     text-decoration: none;
     font-family: LouisVuitton;
     font-weight: normal;
-    border: 1px solid #000; 
-    color: #000;
+    border: 1px solid black; 
+    color: black;
     padding: .8125rem 2rem;
     border-radius: 2em; 
     margin: 3em 0em 3em 0em;
@@ -268,7 +301,7 @@ h1{
 
 .gifts ul li a{
   text-decoration: none;
-  color: #000;
+  color: var(--font-colorr);
   position:relative;
   display: flex;
   flex-direction: column; 
@@ -295,6 +328,9 @@ li.liked button.like {
   font-size: 2em;
 }
 
+.services{
+  background-color: var(--primary-color);
+}
 
 .services h2{
     font-family: LouisVuitton;
@@ -302,6 +338,7 @@ li.liked button.like {
     font-size: 22px;
     text-align: center; 
     margin-bottom: 1em;
+    color: var(--font-color);
 }
 
 .services p{
@@ -310,6 +347,7 @@ li.liked button.like {
     font-size: 17px;
     margin-bottom: 2em;
     text-align: center;
+    color: var(--font-color);
 }
 
   
@@ -326,6 +364,7 @@ li.liked button.like {
 
   position: relative;
 	outline:none;
+
 }
 
 /************************************/
@@ -390,7 +429,7 @@ li.liked button.like {
 	left: 2em; right: 2em;
 	bottom: -1em;
 	margin: 0;
-  padding: 0 0 .5em;
+  padding: 0em 0em 2em 0em;
   list-style: none;
 	
 	display: flex;
@@ -447,7 +486,7 @@ li.liked button.like {
 .buttonlist button{
   font-size: 15px;
   border: none;
-  background-color: #f8f8f8;
+  background-color: var(--footer-color);
   padding: 1em 7em 1em 0em;
 }
 
@@ -460,16 +499,17 @@ li.liked button.like {
 
 
 footer {
-    background-color: #f8f8f8;
+    background-color: var(--footer-color);
     text-align: center;
     padding: 20px;
-    margin-top: 50px;
+
 }
 
 footer h2{
     font-family: LouisVuitton;
     font-weight: bold;
     font-size: 22px;
+    color: var(--font-color);
 }
 
 footer ul {
@@ -478,10 +518,20 @@ footer ul {
     justify-content: center;
     gap: 10px;
     margin-top: 10px;
+
+}
+
+footer button{
+  color: var(--font-color);
 }
 
 footer a {
     text-decoration: none;
-    color: #333;
+    color: var(--font-color);
     margin: 0.5em;
 }
+
+footer p{
+  color: var(--font-color);
+}
+
