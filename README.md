@@ -114,7 +114,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina: 
+  ### de hele eerste pagina: 
   <img src="/readme-images/HomepageLouisVuittonFP Breakdown.png" width="375px" alt="breakdown van de hele pagina">
 
   ### de tweede pagina: 
@@ -132,30 +132,31 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 1 (week 2)
 
-<details>
+<details open>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het stukje code HTML staat volledig in de index. Ik heb mijn breakdownschets af en de toegankelijkheidstest voor de helft af. En naar mijn mening ging dat ook best goed. Het enige waar ik tegen aan liep is dat de code van mijn site niet gevalidate kan worden. Dus een vraag van de toegankelijkheidstest kan ik niet beantwoorden.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Vragen                                                                 | Antwoorden         | 
+  | ---                                                                    | ---                |
+  | Ik heb bij mijn breakdownschets een h2 onder een h3, kan dit kloppen?  | Nee dat klopt niet, hoe gek het ook eruit ziet, Een H2 is altijd boven een H3. De H2 kan ook kleiner zijn dan de H3, dat doe je met de opmaak in css.|
+  | Hoe plaats ik een video erin zoals Louis Vuitton dat heeft?            | Dit doe je met de video tag. Vergeet autoplay, loop en andere controls niet toe te voegen als dit nodig is.|
+  | ...            | ...                |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Spans en Divs gebruiken is niet verboden, maar doe dit alleen waar nodig is.
+  - Een span wordt gebruikt als er een inline aanpassing wordt gebruikt. Dus een H1. Of een ander onderdeel van de tekst. Divs zijn voor grotere stukken.
+  - Gebruik geen alt bij een background.
+  - LANG NL veranderen naar LANG EN voor betere toegankelijkheid.
+  - Voor de carousel zijn oefeningen voor die je kan gebruiken.
 
 </details>
 
