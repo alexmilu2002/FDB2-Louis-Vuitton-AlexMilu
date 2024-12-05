@@ -1,15 +1,3 @@
-# Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-
-
-
 ## Jij
 
 <details open>
@@ -142,15 +130,29 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Vragen                                                                 | Antwoorden         | 
-  | ---                                                                    | ---                |
-  | Ik heb bij mijn breakdownschets een h2 onder een h3, kan dit kloppen?  | Nee dat klopt niet, hoe gek het ook eruit ziet, Een H2 is altijd boven een H3. De H2 kan ook kleiner zijn dan de H3, dat doe je met de opmaak in css.|
-  | Hoe plaats ik een video erin zoals Louis Vuitton dat heeft?            | Dit doe je met de video tag. Vergeet autoplay, loop en andere controls niet toe te voegen als dit nodig is.|
-  | ...            | ...                |
+  | Vragen           | Antwoorden         | 
+  | ---              | ---                |
+  | Ik heb bij mijn breakdownschets een h2 onder een h3, kan dit kloppen? | Nee dat klopt niet, hoe gek het ook eruit ziet, Een H2 is altijd boven een H3. De H2 kan ook kleiner zijn dan de H3, dat doe je met de opmaak in css.|
+  | Hoe plaats ik een video erin zoals Louis Vuitton dat heeft? | Dit doe je met de video tag. Vergeet autoplay, loop en andere controls niet toe te voegen als dit nodig is.|
+  | Hoe zit dat met de pauze en mute knop op het filmpje? | Je kan "controls" in de video tag en kijken of je die kan stylen in css |
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  #### hier na afloop snel de uitkomsten van de meeting vastleggen
+
+  #### Veranderingen in Breakdown schets:
+
+  - H3 ---> H2
+  - Zoekbalk ---> Input
+  - P's ---> H3
+  - Namen Product ---> H3
+  - Gifts ---> H2
+  - Perfumes ---> H3
+  - Hartje ---> Button
+  - Laatste Logo ---> Visual
+  - Services --> H
+
+  #### Uitkomsten van groepsgenoten:
 
   - Spans en Divs gebruiken is niet verboden, maar doe dit alleen waar nodig is.
   - Een span wordt gebruikt als er een inline aanpassing wordt gebruikt. Dus een H1. Of een ander onderdeel van de tekst. Divs zijn voor grotere stukken.
@@ -166,30 +168,32 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Voortgang 2 (week 3)
 
-<details>
+<details open>
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb de feedback van de vorige keer opgenomen en toegepast. Nu is mijn breakdownschets en HTML goed. Ik ben ook verder gekomen met css. Positioneren was weer even wennen, maar na een tijdje had ik het door. Waar ik eenbeetje vast zat was de carousel. Ik heb ook moeite met het verzinnen van Surface Plane dingen die ik wil toepassen tot mijn site. Ik heb het gevoel dat ik eenbeetje achterloop.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Vragen         | Antwoorden         |
+  | ---            | ---                |
+  | Hoe pak ik de fonts van Louis Vuitton en zet die op mijn site? | Je gaat eerst naar Louis Vuitton--> Inspecteren--> Netwerk--> Fonts en dan refresh je. Nu zie je fonts op een rijtje die je kunt downloaden, dan zet je ze in een mapje. Verder is de basiscode in teams gezet die je kunt gebruiken om ze aan te roepen|
+  | Hoe maak ik de carousel na? | Als je er echt niet uit komt kun je de code uit de oefening pakken en die stylen naar eigen wens. | 
+  | Welke Surface Plane dingen kan ik gebruiken? |  Als je iets met animaties of filmpjes hebt kun je reduce motion doen. Verder moet je eenbeetje kijken naar wat je website van zichzelf al heeft. | 
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Geen spaties in de namen van foto's (geeft foutmelding).
+  - Controleer validator regelmatig.
+  - Werk zo snel mogelijk met de juiste font, anders moet je veel code aanpassen.
+  - Je kan een video insluiten via YouTube of zelf downloaden en in je bestanden plaatsen.
+  - Autofocus helpt mensen met een screenreader om dingen te skippen en te beluisteren.
+  - Verzamel bewijs als je dingen probeert en niet helemaal lukken. Zo kun je toch punten scoren.
 
 </details>
 
