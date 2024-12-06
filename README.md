@@ -240,11 +240,12 @@
 
   | Vragen         | Antwoorden         | 
   | ---            | ---                | 
-  | Is de breakdown schets van de tweede pagina goed? |              |
-  | Soms zie je de zon en de maan tegelijk. Hoe krijg ik dit weg? |              |
-  | Ik kan niet scrollen in de hamburger menu, Hoe kan dit? |              |
-  | Hoe krijg ik de scroll animation die Louis Vuitton gebruikt, Het lukt mij niet. |             | 
-  | Ik heb een aantal foutcodes die ik niet weg krijg. |                | 
+  | Is de breakdown schets van de tweede pagina goed? | De eerste twee sections horen 1 section te zijn. En de 2 buttons onder elkaar zijn eigenlijk een input. |
+  | Soms zie je de zon en de maan tegelijk. Hoe krijg ik dit weg? | Gooi de SVG'tjes in een bestand en roep ze aan alsof je images oproept. En zet ze op hidden via CSS. |
+  | Ik kan niet scrollen in de hamburger menu, Hoe kan dit? | Gebruik "overflow: scroll;" |
+  | Hoe krijg ik de scroll animation die Louis Vuitton gebruikt, Het lukt mij niet. | Hiermee moet je hulp vragen in de FED kanaal. | 
+  | Ik heb een aantal foutcodes die ik niet weg krijg. | De foutcodes in je HTML komen doordat de svg's in een mapje moet. Foutcodes in CSS let ik niet zo op, als het werkt dan werkt het.| 
+  | Bij de screenreader skipt hij P'tjes bij mij, hoe komt dat?| Je moet niet alleen TAB gebruiken, dat is een brouwser functie. Leer ook de screenreader sneltoetsen via DLO |
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
