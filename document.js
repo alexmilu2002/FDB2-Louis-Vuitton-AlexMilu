@@ -234,3 +234,45 @@ if (currentTheme) {
 /************************************/
 /* EINDE VAN DARK MODE **************/
 /************************************/
+
+/************************************/
+/* BEGIN VAN REDUCE MOTIOn **********/
+/************************************/
+
+    // Selecteer de afbeeldingen
+    const toggleOnImg = document.querySelector(".toggleonreducemotion");
+    const toggleOffImg = document.querySelector(".toggleoffreducemotion");
+
+    // Voeg event listeners toe aan beide afbeeldingen
+    toggleOnImg.addEventListener("click", toggleAutoplay);
+    toggleOffImg.addEventListener("click", toggleAutoplay);
+
+    function toggleAutoplay() {
+        const videos = document.querySelectorAll("video");
+        let autoplayActive = false;
+
+        videos.forEach(video => {
+            if (video.hasAttribute("autoplay")) {
+                video.removeAttribute("autoplay");
+                video.pause();
+                autoplayActive = false;
+            } else {
+                video.setAttribute("autoplay", "");
+                video.play();
+                autoplayActive = true;
+            }
+        });
+
+        // Wissel de zichtbaarheid van de afbeeldingen
+        if (autoplayActive) {
+            toggleOnImg.style.display = "block";
+            toggleOffImg.style.display = "none";
+        } else {
+            toggleOnImg.style.display = "none";
+            toggleOffImg.style.display = "block";
+        }
+    }
+
+/************************************/
+/* EINDE VAN REDUCE MOTIOn **********/
+/************************************/
