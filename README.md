@@ -109,7 +109,7 @@
   <img src="/readme-images/ProductpageLouisVuittonFP Breakdown.png" width="375px" alt="breakdown van de product pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="/readme-images/MenuLouisVuitton Breakdown.png" width="375px" alt="breakdown van de dynamische deel (menu)">
 
 
 </details>
@@ -203,11 +203,59 @@
 
 ## Toegankelijkheidstest 2/2 (week 4)
 
-<details>
+<details open>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Lijst met je bevindingen die in de test naar voren kwamen:
+  #### Content 
+  - Website gebruikt wel metaforen in de nav, maar die zijn duidelijk.
+  - Website maakt duidelijk wat links zijn door middel van een streep onder de tekst bijvoorbeeld, of door de ronde afwerking. Buttons worden op een logische locatie weergegeven.
+
+  #### Keyboard
+  - Met tab kan je clickable elementen selecteren. 
+  - De website selecteerd op logische volgorde. 
+  - Je kan niet alle H's of P's met tab selecteren, daarvoor is een screenreader nodig. 
+
+  #### Mobile & Touch
+  - Website kan naar alle kanten draaien, zonder dat de plaatjes en knoppen raar vervormen. 
+  - Enige wat soms raar kan vormen is de hamburger menu.
+  - Scrollen naar links of rechts is uitgeschakeld, alleen toegestaan op plekken waar het nodig is zoals slideshows. 
+  - Knoppen hebben genoeg ruimte naast elkaar, dat zorgt voor makkelijke klikbaarheid.
+ 
+
+  #### Headings
+  - De website heeft maar 1 H1
+  - Elk stuk nieuwe content wordt geintroduceerd door een Heading. 
+  - Headings staan correct, H1-->H2-->H3-->H4 etc.
+  - Na elk stukje content is een groot plaatje geplaatst, waar je doorheen moet scrollen. Dit is een handig trucje om geen content te skippen. 
+
+  #### Lists
+  - Een collectie van items staat binnen een list als content. 
+
+  #### Images
+  - Alle plaatjes hebben een juiste ALT Tekst, wat ervoor zorgt dat gebruikers met een screenreader beter op de site terecht kunnen. 
+
+  #### Media
+  - Videos’s beginnen met spelen zodra je de pagina opent. 
+  - Video’s kunnen wel gepauseerd en gemute worden. 
+  - Je kan door de video's heen scrollen.
+  - Er zijn geen captions en audio transcripts. 
+  - Reduce Motion optie die ervoor zorgt dat alle video's op de website worden gepauzeerd, voor mensen met een motion sickness.
+
+  #### Appearance
+  - Website heeft dark-mode, en een reduce motion mode. 
+  - De kleuren zijn simpel, en brengen niet echt iets naar voren, behalve dat het een chique merk is.
+  - De kleuren van dark mode zijn nog steeds heel goed zichtbaar.
+
+  #### Animation
+  - Animaties lopen smooth over en zijn niet flashy, ook de scroll animaties van de plaatjes. 
+  - Videos kan je op pauze zetten als je wilt. 
+
+  #### Color Contrast
+  - De site heeft een witte achtergrond met zwarte text en iconen, dus het contrast is wel goed.
+  - Bij de Dark Mode heeft de site een grijze achtergrond, met witte iconen en tekst. Daardoor springt het nog steeds goed naar voren.
+  - Tekst die de video’s overlapt is wit, en dat kan er soms voor zorgen dat de tekst niet heel goed zichtbaar is. 
 
 </details>
 
@@ -217,7 +265,7 @@
 
 ## Voortgang 3 (week 4)
 
-<details>
+<details open>
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
@@ -250,10 +298,12 @@
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Een section is net een hoofdstuk van een boek.
+  - Elk hoofdstuk moet eigenlijk een deeltitel hebben.
+  - Advies om met mobile first te beginnen voor in de toekomst.
+  - Stray div error betekent dat je de div niet goed hebt afgesloten.
+  - Tekst in buttens kun je gewoon weghalen, met een aria label maak je het toegankelijk voor screenreaders.
+
 
 </details>
 
@@ -267,19 +317,17 @@
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="/readme-images/MijnHomepageFP.png" width="375px" alt="Full screen screenshot van mijn Homepage">
+  <img src="/readme-images/MijnProductpageFP.png" width="375px" alt="Full screen screenshot van mijn Productpage">
+  <img src="/readme-images/MijnMenuFP.png" width="375px" alt="Full screen screenshot van mijn Menu">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Van dit opdracht heb ik heel veel nieuwe dingen geleerd. Toen ik voor het eerst de opdracht te horen kreeg, dacht ik bij mezelf dat het mij nooit zou lukken. Maar ik ben verder gekomen dan ik ooit had gedacht. Ik heb veel geleerd van de uitleg en feedback van de docent en van de hulp van de studentenassistenten. Door middel van de opdrachten heb ik geleerd hoe ik een hamburger menu, een carousel slider, dark mode en reduce motion moet maken. Ik ben ook beter geworden in beter positioneren met flexbox en grid, en hoe ik kleine animaties kan maken zoals de like button of een scroll animatie. Ik ben trots op hoe ver ik ben gekomen, en ik heb nu heel veel extra kennis die ik verder naar toekomstige projecten kan nemen.
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Wat ik het lastigst vond was de hamburger menu, maar na een oefening gedaan te hebben kreeg ik wel clues van hoe het moest. Wat mij ook niet is gelukt is om de controls attribute te customizen, maar ik heb wel iets soortgelijks gemaakt, namelijk de reduce motion button.
 </details>
 
 
