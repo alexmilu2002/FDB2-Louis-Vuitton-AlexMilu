@@ -313,7 +313,7 @@
 
 ## Eindgesprek (week 5)
 
-<details>
+<details open>
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
@@ -323,7 +323,7 @@
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Van dit opdracht heb ik heel veel nieuwe dingen geleerd. Toen ik voor het eerst de opdracht te horen kreeg, dacht ik bij mezelf dat het mij nooit zou lukken. Maar ik ben verder gekomen dan ik ooit had gedacht. Ik heb veel geleerd van de uitleg en feedback van de docent en van de hulp van de studentenassistenten. Door middel van de opdrachten heb ik geleerd hoe ik een hamburger menu, een carousel slider, dark mode en reduce motion moet maken. Ik ben ook beter geworden in beter positioneren met flexbox en grid, en hoe ik kleine animaties kan maken zoals de like button of een scroll animatie. Ik ben trots op hoe ver ik ben gekomen, en ik heb nu heel veel extra kennis die ik verder naar toekomstige projecten kan nemen.
+  Van dit opdracht heb ik heel veel nieuwe dingen geleerd. Toen ik voor het eerst de opdracht te horen kreeg, dacht ik bij mezelf dat het mij nooit zou lukken. Maar ik ben verder gekomen dan ik ooit had gedacht. Ik heb veel geleerd van de uitleg en feedback van de docent en van de hulp van de studentenassistenten. Door middel van de opdrachten heb ik geleerd hoe ik een hamburger menu, een carousel slider, dark mode en reduce motion moet maken. Ik ben ook beter geworden in beter positioneren met flexbox en grid, en hoe ik kleine animaties kan maken zoals de like button of een scroll animatie. Wat ook handig was is dat ik meer op toegankelijkheid ging letten dan normaal. Ik ben trots op hoe ver ik ben gekomen, en ik heb nu heel veel extra kennis die ik verder naar toekomstige projecten kan nemen.
 
 
   ### Dit was lastig/Is niet gelukt:
